@@ -23,7 +23,7 @@ Every layer ![](https://latex.codecogs.com/svg.latex?\Large&space;i<n) of the La
 ### Step 3 - Build a Gaussian pyramid to the mask image
 ![alt text](https://github.com/IdoSagiv/image-blending/blob/main/images/mask_gaussian.png?raw=true)
 ### Step 4 - Construct the blended image
-Build the blended image Laplacian pyramid as described before, and construct the image from it.<br/>
+Build the blended image Laplacian pyramid as described before, and construct the output image from it.<br/>
 ![alt text](https://github.com/IdoSagiv/image-blending/blob/main/images/all_images.png?raw=true)
 ### RGB images
 In case the input images are colored, perform the described steps on every channel (R,G,B), and combine the three blended images.
