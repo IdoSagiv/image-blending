@@ -1,7 +1,7 @@
 # Image Blending
 A program for blending two images using a pyramid blending
 ![alt text](https://github.com/IdoSagiv/image-blending/blob/main/images/blended_image.png?raw=true)
-## Technologies and Supported OS
+## Technologies And Tools
 This program is written in Python and using the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.<br/>
 The program was developed over Linux, and tested both over Linux and Windows.
 ## Overview
@@ -12,7 +12,7 @@ sum of the corresponding layers in the two Laplacian pyramids weighted by the co
 i.e if the input images Laplacian pyramids are ![](https://latex.codecogs.com/svg.latex?\Large&space;L_A) and ![](https://latex.codecogs.com/svg.latex?\Large&space;L_B) 
 and the mask Gaussian pyramid is ![](https://latex.codecogs.com/svg.latex?\Large&space;G_M) then on every layer of the output image Laplacian pyramid  ![](https://latex.codecogs.com/svg.latex?\Large&space;L_C) 
 we get ![](https://latex.codecogs.com/svg.latex?\Large&space;L_C(i,j)=G_M(i,j)L_A(i,j)+(1-G_M(i,j))L_B(i,j))
-## Blending procces
+## Blending Process
 ### Step 1 - Build a Gaussian pyramid to the two input images
 ![alt text](https://github.com/IdoSagiv/image-blending/blob/main/images/manhattan_gaussian.png?raw=true)<br/>
 ![alt text](https://github.com/IdoSagiv/image-blending/blob/main/images/space_gaussian.png?raw=true)
