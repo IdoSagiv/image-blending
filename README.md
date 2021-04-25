@@ -3,7 +3,7 @@ A program for blending two images using a pyramid blending
 ![alt text](https://github.com/IdoSagiv/image-blending/blob/main/images/blended_image.png?raw=true)
 ## Technologies And Tools
 This program is written in Python and using the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.<br/>
-The program was developed over Linux, and tested both over Linux and Windows.
+The program was developed on Linux, and tested both on Linux and Windows.
 ## Overview
 The program gets as input three images - two input images to blend and one mask image.<br/>
 The blend is done using a Laplacian pyramids of the two input images and a Gaussian pyramid of the mask image.<br/>
